@@ -9,10 +9,10 @@
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/light-mode-style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode-style.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/grid.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="assets/css/dark-mode-style.css">
     <link rel="icon" href="assets/images/header-img/Logo-icon.png" type="img/gif" sizes="16x16">
     <title>Reading Light Novel Web</title>
 </head>
@@ -166,7 +166,7 @@
                     </label>
                 </div>
                 <div class="login">
-                    <label for="login-input" href="#1" class="login-link">Đăng nhập</label>
+                    <label for="login-input" href="#" class="login-link">Đăng nhập</label>
                 </div>
                 <input type="checkbox" name="" hidden class="login__input" id="login-input">
 
@@ -190,9 +190,75 @@
 
                         <div class="auth-form__aside">
                             <div class="auth-form__help">
-                                <a href="#1" class="auth-form__help-link auth-form__help-link-forgot">Quên mật khẩu</a>
+                                <label for="signup-input" class="signup-link">Đăng ký</label>
+                                <input type="checkbox" name="" hidden class="signup-input" id="signup-input">
+                                <!-- <label for="login-input" class="signup__overlay"></label> -->
+
+                                <!-- signup form -->
+                                <div class="signup-form">
+                                    <div class="auth-form__container">
+                                        <div class="auth-form__header">
+                                            <h3 class="auth-form__heading">Đăng ký</h3>
+                                        </div>
+
+                                        <div class="signup-form__form">
+                                            <div class="auth-form__group">
+                                                <input type="text" class="auth-form__input" placeholder="Tên tài khoản">
+                                            </div>
+                                            <div class="auth-form__group">
+                                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                                            </div>
+                                            <div class="auth-form__group">
+                                                <input type="password" class="auth-form__input"
+                                                    placeholder="Mật khẩu của bạn">
+                                            </div>
+                                            <div class="auth-form__group">
+                                                <input type="password" class="auth-form__input"
+                                                    placeholder="Xác nhận mật khẩu của bạn">
+                                            </div>
+                                            <form class="gender-form">
+                                                <div class="gender-option">
+                                                    <input id="Male" name="gender" type="radio" value="Nam" /><label
+                                                        for="Male">Nam</label>
+                                                </div>
+                                                <div class="gender-option">
+                                                    <input id="Female" name="gender" type="radio" value="Nữ" /><label
+                                                        for="Female">Nữ</label>
+                                                </div>
+                                                <div class="gender-option">
+                                                    <input id="Other" name="gender" type="radio" value="Khác" /><label
+                                                        for="Other">Khác</label>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="auth-form__aside">
+                                            <div class="auth-form__help">
+                                                <label for="signup-input" class="signup-link">Đăng nhập</label>
+                                                <span class="auth-form__help-separate"></span>
+                                                <a href="#1"
+                                                    class="auth-form__help-link auth-form__help-link-forgot">Quên mật
+                                                    khẩu?</a>
+                                            </div>
+                                        </div>
+                                        <div class="signup-form__controls">
+                                            <label for="signup-input" class="btn btn--normal">TRỞ LẠI</label>
+                                            <button class="btn btn--login">ĐĂNG KÝ</button>
+                                        </div>
+                                    </div>
+                                    <div class="signup-form__socials">
+                                        <a href="#1" class="auth-form__socials--facebook btn">
+                                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                                            <span class="auth-form__socials-title">Kết nối với Facebook</span>
+                                        </a>
+                                        <a href="#1" class="auth-form__socials--google btn">
+                                            <i class="auth-form__socials-icon fab fa-google"></i>
+                                            <span class="auth-form__socials-title">Kết nối với Google</span>
+                                        </a>
+                                    </div>
+                                </div>
+
                                 <span class="auth-form__help-separate"></span>
-                                <a href="#1" class="auth-form__help-link">Cần trợ giúp?</a>
+                                <a href="#1" class="auth-form__help-link auth-form__help-link-forgot">Quên mật khẩu?</a>
                             </div>
                         </div>
 
@@ -213,6 +279,7 @@
                         </a>
                     </div>
                 </div>
+
                 <!-- search-on-mobile -->
                 <input type="checkbox" name="" hidden class="nav__input-search-mobile" id="nav-mobile-input">
                 <label for="nav-mobile-input" class="icon-search-mobile fas fa-search"></label>
