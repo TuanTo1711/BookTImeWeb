@@ -1,0 +1,124 @@
+body {
+    background-color: #111;
+    color: hsla(0,0%,100%,.9);
+}
+
+a {
+    color: inherit;
+}
+
+h5.series-title>a:hover {
+    opacity: .6;
+}
+
+.header {
+    background-color: #2a2a2a;
+}
+
+.header-logo-img {
+    background: url('../images/header-img/darkmode-logo.png');
+}
+
+.subnav--list, .header-icon-list {
+    background-color: #333;
+    color: inherit;
+}
+
+input.header-search--top {
+    background-color: #0a0a0a;
+    color: #eee;
+}
+
+.header-search__submit, .login-link{
+    color: #eee;
+}
+
+input.header-search--top::placeholder {
+    color: inherit;
+}
+
+.banner-list {
+    background-color: #1f1f1f;
+}
+
+.titel-item:first-child .titel-link {
+    background-color: hsla(0,0%,39%,.8);
+}
+
+.slider {
+    padding-top: 10%;
+    background: url('../images/header-img/banner-dark.jpg') top center / contain no-repeat;
+    margin-top: 46px;
+}
+
+.title-item:first-child .title-link {
+    background-color: hsla(0,0%,39%,.8);
+    color: #eee;
+    padding: 10px;
+}
+
+.fas.fa-toggle-on {
+    font-size: 16px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.title-link-text {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.background-full {
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #3e3e3e;
+    border-top: 1px solid #3e3e3e;
+}
+
+a.heading-paga {
+    color: #fff;
+}
+
+.see-more-link:hover {
+    background-color: hsla(0,0%,100%,.3);
+    color: #fff;
+}
+
+.see-more-link {
+    color: white;
+    border-color: white;
+}
+
+.comment-item .comment-user_name {
+    color: hsla(0,0%,100%,.4);
+}
+
+.rank-cirle .rank-circle-item:nth-of-type(2) .series-title {
+    color: #eee;
+}
+
+.rank-cirle .rank-circle-item:nth-of-type(2) .series-title, 
+.rank-cirle .rank-circle-item:nth-of-type(3) .series-title {
+    color: #eee;
+}
+
+.rank-cirle .rank-circle-item:nth-of-type(2) .rank-number,
+.rank-cirle .rank-circle-item:nth-of-type(3) .rank-number {
+    background-color: hsla(0,0%,39%,.6);
+}
+
+.rank-cirle .rank-number {
+    background-color: rgba(80,80,80,.4);
+}
+
+.rank-cirle .rank-count {
+    color: hsla(0,0%,100%,.4);
+}
+
+.rank-cirle .series-detail .series-title {
+    color: hsla(0,0%,100%,.9);
+}
+
+.nav-list--tablet-mobie,
+.subnav--list {
+    background-color: #000;
+}

@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/light-mode-style.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="icon" href="assets/images/header-img/Logo-icon.png" type="img/gif" sizes="16x16">
+    <title>Reading Light Novel Web</title>
+</head>
+
+<body>
+    <div class="main">
+        <div id="page-top"></div>
+        <div class="header">
+            <div class="header--align">
+                <div class="nav-list--tablet-mobie-icon">
+                    <input type="checkbox" name="" hidden class="nav__input" id="nav-mobile-tablet-input">
+                    <label for="nav-mobile-tablet-input" class="bars-tablet-mobie-icon fa-solid fa-bars"></label>
+                    <label for="nav-mobile-tablet-input" class="login__overlay2"></label>
+                    <ul class="nav-list--tablet-mobie">
+                        <li class="nav--list">
+                            <a href="#not-page-top" class="nav--list__link">
+                                Sáng tác
+                            </a>
+                        </li>
+                        <li class="nav--list">
+                            <a href="#not-page-top" class="nav--list__link">
+                                Xuất bản
+                            </a>
+                        </li>
+                        <li class="nav--list">
+                            <a href="#not-page-top" class="nav--list__link">
+                                Thảo luận
+                            </a>
+                        </li>
+                        <li class="nav--list">
+                            <a href="#not-page-top" class="nav--list__link">
+                                Danh sách
+                            </a>
+                        </li>
+                        <li class="nav--list">
+                            <span class="nav--list__link">
+                                Hướng dẫn
+                                <i class="fas fa-chevron-down"></i>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </span>
+                            <ul class="subnav--list">
+                                <li class="subnav--list-item">
+                                    <a href="#not-page-top" class="subnav--list-link">
+                                        Đăng truyện
+                                    </a>
+                                </li>
+                                <li class="subnav--list-item">
+                                    <a href="#not-page-top" class="subnav--list-link">
+                                        Giới thiệu
+                                    </a>
+                                </li>
+                                <li class="subnav--list-item">
+                                    <a href="#not-page-top" class="subnav--list-link">
+                                        Góp ý - Báo lỗi
+                                    </a>
+                                </li>
+                                <li class="subnav--list-item">
+                                    <a href="#not-page-top" class="subnav--list-link">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header-logo">
+                    <a href="index.html" class="header-logo-img"></a>
+                </div>
+
+                <ul class="nav hide-on-tablet-mobile">
+                    <li class="nav--list">
+                        <a href="#not-page-top" class="nav--list__link">
+                            Sáng tác
+                        </a>
+                    </li>
+                    <li class="nav--list">
+                        <a href="#not-page-top" class="nav--list__link">
+                            Xuất bản
+                        </a>
+                    </li>
+                    <li class="nav--list">
+                        <a href="#not-page-top" class="nav--list__link">
+                            Thảo luận
+                        </a>
+                    </li>
+                    <li class="nav--list">
+                        <a href="#not-page-top" class="nav--list__link">
+                            Danh sách
+                        </a>
+                    </li>
+                    <li class="nav--list">
+                        <span class="nav--list__link">
+                            Hướng dẫn
+                            <i class="fas fa-chevron-down"></i>
+                        </span>
+                        <ul class="subnav--list">
+                            <li class="subnav--list-item">
+                                <a href="#not-page-top" class="subnav--list-link">
+                                    Đăng truyện
+                                </a>
+                            </li>
+                            <li class="subnav--list-item">
+                                <a href="#not-page-top" class="subnav--list-link">
+                                    Giới thiệu
+                                </a>
+                            </li>
+                            <li class="subnav--list-item">
+                                <a href="#not-page-top" class="subnav--list-link">
+                                    Góp ý - Báo lỗi
+                                </a>
+                            </li>
+                            <li class="subnav--list-item">
+                                <a href="#not-page-top" class="subnav--list-link">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header--align2">
+                <form action="" class="header-search hide-on-mobile">
+                    <input type="text" placeholder="Tìm kiếm" name="search-nav-bar" class="header-search--top">
+                    <button type="submit" class="header-search__submit">
+                        <i class="icon-search fas fa-search"></i>
+                    </button>
+                </form>
+
+                <div class="header-icon">
+                    <label for="click-icon-three-dots" class="icon-three-dots fas fa-ellipsis-v">
+                        <input type="checkbox" name="" hidden class="header-click-icon-three-dots"
+                            id="click-icon-three-dots">
+                        <label for="click-icon-three-dots" class="login__overlay2"></label>
+                        <ul class="header-icon-list">
+                            <li class="header-icon-item">
+                                <a href="dark-mode.html" class="header-icon-link">
+                                    <i class="fas fa-moon"></i>
+                                    Nền tối
+                                    <i class="fas fa-toggle-off"></i>
+                                </a>
+                            </li>
+                            <li class="header-icon-item">
+                                <a href="#not-page-top" class="header-icon-link">
+                                    <i class="fas fa-history"></i>
+                                    Lịch sử
+                                </a>
+                            </li>
+                        </ul>
+                    </label>
+                </div>
+                <div class="login">
+                    <label for="login-input" href="#" class="login-link">Đăng nhập</label>
+                </div>
+                <input type="checkbox" name="" hidden class="login__input" id="login-input">
+
+                <label for="login-input" class="login__overlay"></label>
+
+                <!-- Login form -->
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <label for="signup-input" class="signup-link">Đăng ký</label>
+                                <input type="checkbox" name="" hidden class="signup-input" id="signup-input">
+                                <!-- <label for="login-input" class="signup__overlay"></label> -->
+
+                                <!-- signup form -->
+                                <div class="signup-form">
+                                    <div class="auth-form__container">
+                                        <div class="auth-form__header">
+                                            <h3 class="auth-form__heading">Đăng ký</h3>
+                                        </div>
+
+                                        <div class="signup-form__form">
+                                            <div class="auth-form__group">
+                                                <input type="text" class="auth-form__input" placeholder="Tên tài khoản">
+                                            </div>
+                                            <div class="auth-form__group">
+                                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                                            </div>
+                                            <div class="auth-form__group">
+                                                <input type="password" class="auth-form__input"
+                                                    placeholder="Mật khẩu của bạn">
+                                            </div>
+                                            <div class="auth-form__group">
+                                                <input type="password" class="auth-form__input"
+                                                    placeholder="Xác nhận mật khẩu của bạn">
+                                            </div>
+                                            <form class="gender-form">
+                                                <div class="gender-option">
+                                                    <input id="Male" name="gender" type="radio" value="Nam" /><label
+                                                        for="Male">Nam</label>
+                                                </div>
+                                                <div class="gender-option">
+                                                    <input id="Female" name="gender" type="radio" value="Nữ" /><label
+                                                        for="Female">Nữ</label>
+                                                </div>
+                                                <div class="gender-option">
+                                                    <input id="Other" name="gender" type="radio" value="Khác" /><label
+                                                        for="Other">Khác</label>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="auth-form__aside">
+                                            <div class="auth-form__help">
+                                                <label for="signup-input" class="signup-link">Đăng nhập</label>
+                                                <span class="auth-form__help-separate"></span>
+                                                <a href="#1"
+                                                    class="auth-form__help-link auth-form__help-link-forgot">Quên mật
+                                                    khẩu?</a>
+                                            </div>
+                                        </div>
+                                        <div class="signup-form__controls">
+                                            <label for="signup-input" class="btn btn--normal">TRỞ LẠI</label>
+                                            <button class="btn btn--login">ĐĂNG KÝ</button>
+                                        </div>
+                                    </div>
+                                    <div class="signup-form__socials">
+                                        <a href="#1" class="auth-form__socials--facebook btn">
+                                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                                            <span class="auth-form__socials-title">Kết nối với Facebook</span>
+                                        </a>
+                                        <a href="#1" class="auth-form__socials--google btn">
+                                            <i class="auth-form__socials-icon fab fa-google"></i>
+                                            <span class="auth-form__socials-title">Kết nối với Google</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <span class="auth-form__help-separate"></span>
+                                <a href="#1" class="auth-form__help-link auth-form__help-link-forgot">Quên mật khẩu?</a>
+                            </div>
+                        </div>
+
+                        <div class="auth-form__controls">
+                            <label for="login-input" class="btn btn--normal">TRỞ LẠI</label>
+                            <button class="btn btn--login">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="#1" class="auth-form__socials--facebook btn">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                            <span class="auth-form__socials-title">Kết nối với Facebook</span>
+                        </a>
+                        <a href="#1" class="auth-form__socials--google btn">
+                            <i class="auth-form__socials-icon fab fa-google"></i>
+                            <span class="auth-form__socials-title">Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- search-on-mobile -->
+                <input type="checkbox" name="" hidden class="nav__input-search-mobile" id="nav-mobile-input">
+                <label for="nav-mobile-input" class="icon-search-mobile fas fa-search"></label>
+                <label for="nav-mobile-input" class="login__overlay2"></label>
+                <form action="" class="header-search-on-mobile">
+                    <input type="text" placeholder="Tìm kiếm" name="search-nav-bar" class="header-search--top">
+                    <button type="submit" class="header-search__submit">
+                        <i class="icon-search fas fa-search"></i>
+                    </button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="slider"></div>
+
+        <div id="content">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col c-12">
+                        <div class="banner">
+                            <ul class="banner-list">
+                                <li class="banner-item">
+                                    <a style="color: red; opacity: 100%;" href="#not-page-top" class="banner-link">
+                                        Không đăng manga
+                                    </a>
+                                </li>
+                                <li class="banner-item">
+                                    <a style="color: blue; opacity: 100%;" href="#not-page-top" class="banner-link">
+                                        NHỮNG CÂU HỎI THƯỜNG GẶP (FAQS)
+                                    </a>
+                                </li>
+                                <li class="banner-item">
+                                    <a style="color: red; opacity: 100%;" href="#not-page-top" class="banner-link">
+                                        Về việc nhiều truyện bị Đánh Giá (Rate) linh tinh
+                                    </a>
+                                </li>
+                                <li class="banner-item">
+                                    <a style="opacity: 100%;" href="#not-page-top" class="banner-link">
+                                        Thử nghiệm thông báo chương mới
+                                    </a>
+                                </li>
+                                <li class="banner-item">
+                                    <a style="color: red; opacity: 100%;" href="#not-page-top" class="banner-link">
+                                        Quy định chung về các dự án
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-align"></div>
+                <div class="row">
+                    <div class="col c-12 m-12 l-9">
+                        <div class="top-views">
+                            <ul class="content-title content-title--padding">
+                                <li class="title-item">
+                                    <div class="title-link">
+                                        <i class="content-title-icon fas fa-trophy"></i>
+                                        Nổi bật
+                                    </div>
+                                </li>
+                                <li class="title-item">
+                                    <a href="#not-page-top" class="title-link">
+                                        Top Tháng
+                                    </a>
+                                </li>
+                                <li class="title-item">
+                                    <a href="#not-page-top" class="title-link">
+                                        Toàn t/gian
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="row no-wrap-on-mobile">
+                                <div class="col c-6 m-3 l-3">
+                                    <div class="content-img"
+                                        style="background-image: url('assets/images/main-img/background-top-1.png')">
+                                        <a class="content-img-text">Arifureta Shokugyou De Sekai Saikyou</a>
+                                    </div>
+                                </div>
+                                <div class="col c-6 m-3 l-3">
+                                    <div class="content-img"
+                                        style="background-image: url('assets/images/main-img/slime-thumbnail.jpg')">
+                                        <a class="content-img-text">Tensei shitara Slime Datta Ken</a>
+                                    </div>
+                                </div>
+                                <div class="col c-6 m-3 l-3">
+                                    <div class="content-img"
+                                        style="background-image: url('assets/images/main-img/Boushoku\ no\ Berserk.jpg')">
+                                        <a class="content-img-text">
+                                            Boushoku no Berserk ~ Ore dake Level to Iu Gainen wo Toppa Suru ~
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col c-6 m-3 l-3">
+                                    <div class="content-img"
+                                        style="background-image: url('assets/images/main-img/Kage.no.Jitsuryokusha.ni.Naritakute!.full.3242399.jpg')">
+                                        <a class="content-img-text">Kage no Jitsuryokusha ni Naritakute!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-3">
+                        <ul class="content-title content-title--padding">
+                            <li class="title-item">
+                                <div class="title-link">
+                                    Thảo
+                                </div>
+                            </li>
+                            <li class="title-item">
+                                <a href="#not-page-top" class="title-link">
+                                    <span class="title-link-text">Luận</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="d-block">
+                            <div class="topic-item">
+                                <div class="content-notify">
+                                    <div class="col l-9 text-over">
+                                        <i class="fas fa-circle" style="color: #1ee865; margin-right: 4px;"></i>
+                                        <a href="#not-page-top">
+                                            Thảo luận cho tác giả OLN
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="topic-item">
+                                <div class="content-notify">
+                                    <div class="col l-9 text-over">
+                                        <i class="fas fa-circle" style="color: #1ee865; margin-right: 4px;"></i>
+                                        <a href="#not-page-top">
+                                            Phòng hỗ trợ dịch thuật
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="topic-item">
+                                <div class="content-notify">
+                                    <div class="col l-9 text-over">
+                                        <i class="fas fa-circle" style="color: #1ee865; margin-right: 4px;"></i>
+                                        <a href="#not-page-top">
+                                            Sẽ ra sao nếu có 1 quốc gia tên là Slav Republic trong Nihonkoku shoukan, có
+                                            là mối nguy cho Nhật Bản ko
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="topic-item">
+                                <div class="content-notify">
+                                    <div class="col l-9 text-over">
+                                        <i class="fas fa-circle" style="color: #1ee865; margin-right: 4px;"></i>
+                                        <a href="#not-page-top">
+                                            Hỏi Truyện từ A>Z. Góc 8 nhảm cho dịch giả 2.0
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="topic-item">
+                                <div class="content-notify">
+                                    <div class="col l-9 text-over">
+                                        <i class="fas fa-circle" style="color: #1ee865; margin-right: 4px;"></i>
+                                        <a href="#not-page-top">
+                                            Đề xuất LN/WN cho các trans
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="topic-item">
+                                <div class="content-notify">
+                                    <div class="col l-9 text-over">
+                                        <i class="fas fa-circle" style="color: red; margin-right: 4px;"></i>
+                                        <a href="#not-page-top">
+                                            BOX xử lý truyện dịch
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="topic-item">
+                                <div class="content-notify">
+                                    <div class="col l-9 text-over">
+                                        <i class="fas fa-circle" style="color: #252eef; margin-right: 4px;"></i>
+                                        <a href="#not-page-top">
+                                            Tư vấn mọi thứ về Đại học/Cao đẳng/Trung cấp/THCS/THPT/Du học/Vừa học vừa
+                                            làm...
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="topic-item">
+                                <div class="content-notify">
+                                    <div class="col l-9 text-over">
+                                        <i class="fas fa-circle" style="color: #28e1e8; margin-right: 4px;"></i>
+                                        <a href="#not-page-top">
+                                            Góc review và recommend MAL (Manga-Anime-Light Novel)
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="topic-item">
+                                <div class="content-notify">
+                                    <div class="col l-9 text-over">
+                                        <i class="fas fa-circle" style="color: #1ee865; margin-right: 4px;"></i>
+                                        <a href="#not-page-top">
+                                            Tâm thư gửi đến những người đã và đang có ý định dùng máy dịch
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-align" style="margin-bottom: 40px;"></div>
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col c-12 m-12 l-9">
+                        <ul class="content-title">
+                            <li class="title-item">
+                                <div class="title-link">
+                                    Chương
+                                </div>
+                            </li>
+                            <li class="title-item">
+                                <span class="title-link title-link-text">Mới nhất</span>
+                            </li>
+                        </ul>
+                        <div class="row">
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/death-march-kara-hajimaru-isekai-kyousoukyoku-thumbnail.jpg')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Chương 2: Arisa</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            Tập 02
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2 text-over-2">
+                                    <a href="#not-page-top">Death March kara Hajimaru Isekai</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/imouto-sae-ireba-ii-thumbnail.jpg.webp')">
+                                    <div class="thumb-detail">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Chương 06: Vợ (?) và em trai (?)</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over text-over">
+                                            Imosae Kantoku Art Works
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">Imouto sae ireba ii</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/kanna-no-kanna-thubnail.jpg')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Chương 01</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            Tập 01
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">Kanna No Kanna</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/jojo-heaven.jpg')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">18.</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            16 - 20
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">JoJo's Bizarre Adventure Over</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/kimi-usai.jpg')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Minh họa</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            Tập 02
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">Những ai đang ngồi viết Light Novel, mọi người đều có vấn
+                                        đề</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/Kuma\ Kuma\ Kuma\ Bear.webp')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Chương 67: Gấu-san vô đối</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over text-over">
+                                            Vol 3: Gấu-san đi đến thủ đô vương quốc (051-074)
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">Kuma Kuma Kuma Bear</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/Magikav14001.jpg')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Chương 01: Trước cơn giông tố <Before the Storm></Before>
+                                            </a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            Tập 2
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">Magika no Kenshi to Shoukan Maou</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/maou-gakuin.jpg')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Chương 195: Mệnh lệnh chinh phạt rồng</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            VOL V: PHÁN QUYẾT TUYỂN CHỌN
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">
+                                        Maou Gakuin no Futekigousha ~Shijou Saikyou no Maou no Shiso, Tensei shite
+                                        Shison tachi no Gakkou e Kayou~</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/Mushoku\ Tensei\ -\ Isekai\ Ittara\ Honki\ Dasu.jpg')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Quyển 19 - Giai đoạn thanh niên - Cấp dưới</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            Chương 193: Tiến triển nghiên cứu
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">Mushoku Tensei - Isekai Ittara Honki Dasu</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/my-wife-sweet-with-me.jpg')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Chương 17: Sau khi nghe về quá khứ của hôn thê, tôi nghĩ
+                                                mình càng phải trân trọng em ấy hơn</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            Tập 3
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">My Plain-looking Fiancee is Secretly Sweet with me</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/no-game-no-life.jpg')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Khởi đầu nặng lí thuyết</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            Vol 7
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">No Game No Life</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/overlord-specials-thumbnail.jpg.webp')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Tập 13 The Pladin of the Holy Kingdom</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            Chương 04: Vây hãm
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">Overlord</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/Q-Prove-Your-Eternal-Love-There-Shall-Be-No-Heroine-Correction.jpeg')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Chương 02: Mục đích của màn mỹ nhân kế.</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            Volume 1
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">Question 1: Prove Your Eternal Love. There Shall Be No
+                                        Heroine Correction.</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/sevens-thumbnail.jpg')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Volume 1</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            Chương 16: Sức Mạnh Của Bảo Thạch
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">Sevens</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/tensei-shitara-slime-datta-ken-thumbnail.jpg.webp')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Chương 214: Trong thế giới kín</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            ⁂ ARC ⁂ Thiên Ma Đại Chiến
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">Tensei shitara Slime Datta Ken</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/The\ Novice\ Alchemist\'s\ Store.jpg')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Chương 16: Tình huống nguy cấp</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            Tập 01 : Cửa hàng của tôi
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">The Novice Alchemist's Store</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/thumbnail-kumo-desu-ga-nani-ka.jpeg')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">S35: Hai lựa chọn</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            Và rồi sau đó...?
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">Kumo Desu Ga Nani Ka</a>
+                                </div>
+                            </div>
+                            <div class="col c-4 m-3 l-2 md-10">
+                                <div class="content-thumb"
+                                    style="background-image: url('assets/images/nav-img/thumbnail.jpg')">
+                                    <div class="thumb-detail" href="#not-page-top">
+                                        <div class="thumb-detail-name text-over">
+                                            <a href="#not-top">Chap 1.1</a>
+                                        </div>
+                                        <div class="thumb-detail-vol-title text-over">
+                                            Vol.1
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-thumb-text text-over-2">
+                                    <a href="#not-page-top">Make Hiroin ga Oosugiru!</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 c-12">
+                        <ul class="content-title">
+                            <li class="title-item">
+                                <div class="title-link">
+                                    Bình luận
+                                </div>
+                            </li>
+                            <li class="title-item">
+                                <a href="#not-page-top" class="title-link">
+                                    <span class="title-link-text">Gần đây</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <main class="sect-body pl-5">
+                            <div class="comment-item">
+                                <div class="comment-info">
+                                    <span class="series-name">
+                                        <a href="#1">
+                                            Otonari no Tenshi-sama ni Itsu no Aida ni ka Dame Ningen ni Sareteiru ken
+                                        </a>
+                                    </span>
+                                    <div class="comment-content">
+                                        Các cao nhân cho em hỏi đọc song ở đây đến tập bao nhiêu bên LN vậy ạ
+                                    </div>
+                                    <div class="comment-top">
+                                        <div class="comment-user_ava">
+                                            <a href="#1">
+                                                <img src="assets/images/av_user/av_user_1.jpg" alt="Commenter's avatar">
+                                            </a>
+                                        </div>
+                                        <a href="#1" rel="nofollow" class="comment-user_name">Fans</a>
+                                        <small class="comment-location">
+                                            <a href="#1">
+                                                <time class="timeago" title="23-02-2022 15:52:40"
+                                                    datetime="2022-02-23T15:52:40+07:00">
+                                                    23-02-2022 15:52:40
+                                                </time>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-item">
+                                <div class="comment-info">
+                                    <span class="series-name">
+                                        <a href="#1">
+                                            Romcom manga no sekai ni haitte shimattanode, shujinko to kuttsukanai
+                                            heroine wo zenryoku de shiawase ni suru
+                                        </a>
+                                    </span>
+                                    <div class="comment-content">
+                                        Yuri hả mng :)?
+                                    </div>
+                                    <div class="comment-top">
+                                        <div class="comment-user_ava">
+                                            <a href="#1">
+                                                <img src="assets/images/av_user/noava.png" alt="Commenter's avatar">
+                                            </a>
+                                        </div>
+                                        <a href="#1" rel="nofollow" class="comment-user_name">hải anh ngô</a>
+                                        <small class="comment-location">
+                                            <a href="#1">
+                                                <time class="timeago" title="23-02-2022 15:47:38"
+                                                    datetime="2022-02-23T15:47:38+07:00">
+                                                    23-02-2022 15:47:38
+                                                </time>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-item">
+                                <div class="comment-info">
+                                    <span class="series-name"><a href="#1">Shimotsuki
+                                            wa Mob ga Suki</a></span>
+                                    <div class="comment-content">
+                                        :)
+                                    </div>
+                                    <div class="comment-top">
+                                        <div class="comment-user_ava">
+                                            <a href="#1">
+                                                <img src="assets/images/av_user/av_user_2.jpg" alt="Commenter's avatar">
+                                            </a>
+                                        </div>
+                                        <a href="#1" rel="nofollow" class="comment-user_name">ShimoD</a>
+                                        <small class="comment-location">
+                                            <a href="#1">
+                                                <time class="timeago" title="23-02-2022 15:46:39"
+                                                    datetime="2022-02-23T15:46:39+07:00">
+                                                    23-02-2022 15:46:39
+                                                </time>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-item">
+                                <div class="comment-info">
+                                    <span class="series-name"><a href="#1">Tensei
+                                            shitara doragon no tamago datta ~ saikyō igai mezasane ~e ~</a></span>
+                                    <div class="comment-content">
+                                        Bác nào có bộ truyện chuyển sinh thành quái vật mà bị chi phối bởi bản năng ham
+                                        muốn giết chóc của l...
+                                    </div>
+                                    <div class="comment-top">
+                                        <div class="comment-user_ava">
+                                            <a href="#1">
+                                                <img src="assets/images/av_user/av_user_3.jpg" alt="Commenter's avatar">
+                                            </a>
+                                        </div>
+                                        <a href="#1" rel="nofollow" class="comment-user_name">EndGame</a>
+                                        <small class="comment-location">
+                                            <a href="#1">
+                                                <time class="timeago" title="23-02-2022 15:22:31"
+                                                    datetime="2022-02-23T15:22:31+07:00">
+                                                    23-02-2022 15:22:31
+                                                </time>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-item">
+                                <div class="comment-info">
+                                    <span class="series-name"><a href="#1">Goblin
+                                            Slayer</a></span>
+                                    <div class="comment-content">
+                                        Đăng lại trong chương 6 đấy bro :&quot;(
+                                    </div>
+                                    <div class="comment-top">
+                                        <div class="comment-user_ava">
+                                            <a href="#1">
+                                                <img src="assets/images/av_user/av_user_4.jpg" alt="Commenter's avatar">
+                                            </a>
+                                        </div>
+                                        <a href="#1" rel="nofollow" class="comment-user_name">_YếnHy_</a>
+                                        <small class="comment-location">
+                                            <a href="#1">
+                                                <time class="timeago" title="23-02-2022 15:17:07"
+                                                    datetime="2022-02-23T15:17:07+07:00">
+                                                    23-02-2022 15:17:07
+                                                </time>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-item">
+                                <div class="comment-info">
+                                    <span class="series-name"><a href="#1">Goblin
+                                            Slayer</a></span>
+                                    <div class="comment-content">
+                                        Chương mới đâu
+                                    </div>
+                                    <div class="comment-top">
+                                        <div class="comment-user_ava">
+                                            <a href="#1">
+                                                <img src="assets/images/av_user/av_user_5.jpg" alt="Commenter's avatar">
+                                            </a>
+                                        </div>
+                                        <a href="#1" rel="nofollow" class="comment-user_name">Mất Tiêu Luôn</a>
+                                        <small class="comment-location">
+                                            <a href="#1">
+                                                <time class="timeago" title="23-02-2022 15:14:45"
+                                                    datetime="2022-02-23T15:14:45+07:00">
+                                                    23-02-2022 15:14:45
+                                                </time>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-item">
+                                <div class="comment-info">
+                                    <span class="series-name"><a href="#1">Shimotsuki
+                                            wa Mob ga Suki</a></span>
+                                    <div class="comment-content">
+                                        hôm nay không có chap mới các bác dùng tạm
+                                    </div>
+                                    <div class="comment-top">
+                                        <div class="comment-user_ava">
+                                            <a href="#1">
+                                                <img src="assets/images/av_user/av_user_6.jpg" alt="Commenter's avatar">
+                                            </a>
+                                        </div>
+                                        <a href="#1" rel="nofollow" class="comment-user_name">DEi</a>
+                                        <small class="comment-location">
+                                            <a href="#1">
+                                                <time class="timeago" title="23-02-2022 15:11:09"
+                                                    datetime="2022-02-23T15:11:09+07:00">
+                                                    23-02-2022 15:11:09
+                                                </time>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-item">
+                                <div class="comment-info">
+                                    <span class="series-name"><a href="#1">Kou
+                                            2 ni Time leap Shita Ore ga Touji suki Datta Sensei ni Kokutta
+                                            Kekka</a></span>
+                                    <div class="comment-content">
+                                        Tại sao bộ hay thế này mà giờ toi mới biết v !!!! Tks trans !
+                                    </div>
+                                    <div class="comment-top">
+                                        <div class="comment-user_ava">
+                                            <a href="#1">
+                                                <img src="assets/images/av_user/noava.png" alt="Commenter's avatar">
+                                            </a>
+                                        </div>
+                                        <a href="#1" rel="nofollow" class="comment-user_name">NTV moment</a>
+                                        <small class="comment-location">
+                                            <a href="#1">
+                                                <time class="timeago" title="23-02-2022 14:52:49"
+                                                    datetime="2022-02-23T14:52:49+07:00">
+                                                    23-02-2022 14:52:49
+                                                </time>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-item">
+                                <div class="comment-info">
+                                    <span class="series-name"><a href="#1">Shimotsuki
+                                            wa Mob ga Suki</a></span>
+                                    <div class="comment-content">
+                                        Trans nghỉ ngơi sức khỏe đầy đủ đi nhé, không khổ cái cột sống. Chừng này chap
+                                        đủ để đọc lại 1 lần r...
+                                    </div>
+                                    <div class="comment-top">
+                                        <div class="comment-user_ava">
+                                            <a href="#1">
+                                                <img src="assets/images/av_user/av_user_7.jpg" alt="Commenter's avatar">
+                                            </a>
+                                        </div>
+                                        <a href="#1" rel="nofollow" class="comment-user_name">Free Soul</a>
+                                        <small class="comment-location">
+                                            <a href="#1">
+                                                <time class="timeago" title="23-02-2022 14:40:20"
+                                                    datetime="2022-02-23T14:40:20+07:00">
+                                                    23-02-2022 14:40:20
+                                                </time>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-item">
+                                <div class="comment-info">
+                                    <span class="series-name"><a href="#1">Mushoku
+                                            Tensei - Isekai Ittara Honki Dasu</a></span>
+                                    <div class="comment-content">
+                                        Tầm 60k-70k lượt đọc nữa là vượt mặt bộ nhện rồi
+                                    </div>
+                                    <div class="comment-top">
+                                        <div class="comment-user_ava">
+                                            <a href="#1">
+                                                <img src="assets/images/av_user/noava.png" alt="Commenter's avatar">
+                                            </a>
+                                        </div>
+                                        <a href="#1" rel="nofollow" class="comment-user_name">Loy</a>
+                                        <small class="comment-location">
+                                            <a href="#1">
+                                                <time class="timeago" title="23-02-2022 14:34:11"
+                                                    datetime="2022-02-23T14:34:11+07:00">
+                                                    23-02-2022 14:34:11
+                                                </time>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="m-align"></div>
+        <div class="background-full">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col c-12 m-12 l-9">
+                        <ul class="content-title">
+                            <li class="title-item">
+                                <div class="title-link">
+                                    Truyện
+                                </div>
+                            </li>
+                            <li class="title-item">
+                                <span class="title-link title-link-text">Mới nhất</span>
+                            </li>
+                        </ul>
+                        <div class="row sm-gutter">
+                            <div class="col c-12 m-12 l-6 md-10">
+                                <div class="row sm-gutter">
+                                    <div class="col c-12 m-4 l-4">
+                                        <div class="content-thumb-newest"
+                                            style="background-image: url('assets/images/nav-img/yumemirudanshi_v1.jpg');">
+                                        </div>
+                                    </div>
+                                    <div class="col c-12 m-8 l-8">
+                                        <div class="text-over">
+                                            <a href="#not-page-top" class="heading-paga">Yume Miru Danshi wa
+                                                Genjitsushugisha</a>
+                                        </div>
+                                        <div class="subheading-paga">
+                                            Wataru Sajou, người yêu sâu nặng cô bạn cùng lớp xinh đẹp Aika Natsukawa,
+                                            đang tiếp tục tiếp cận cô ấy mà không nản chí trong khi mơ mộng về tình yêu
+                                            của bọn họ.
+                                            Tuy nhiên, một ngày cậu đã thức tỉnh và nghĩ rằng,
+                                            "Mình không thực sự xứng đôi để cùng với với một ai đó tuyệt như cô ấy
+                                            hở..."
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col c-12 m-12 l-6 md-10">
+                                <div class="row sm-gutter">
+                                    <div class="col c-12 m-4 l-4">
+                                        <div class="content-thumb-newest"
+                                            style="background-image: url('assets/images/nav-img/Yuusha\ Densetsu.jpg');">
+                                        </div>
+                                    </div>
+                                    <div class="col c-12 m-8 l-8">
+                                        <div class="text-over">
+                                            <a href="#not-page-top" class="heading-paga">Yuusha Densetsu no Uragawa de
+                                                Ore wa Eiyuu Densetsu wo Tsukurimasu</a>
+                                        </div>
+                                        <div class="subheading-paga">
+                                            Được định mệnh lựa chọn trở thành Anh hùng và Thần linh trao cho Thánh kiếm,
+                                            một thanh niên ưu tú khởi hành cùng với Công chúa xinh đẹp và những người
+                                            bạn đồng hành đáng tin cậy của mình trên hành trình đánh bại Quỷ vương. Một
+                                            kết cấu cơ bản cho đa số sử thi về anh hùng mà bạn có thể tìm thấy khắp nơi.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col c-12 m-12 l-6 md-10">
+                                <div class="row sm-gutter">
+                                    <div class="col c-12 m-4 l-4">
+                                        <div class="content-thumb-newest"
+                                            style="background-image: url('assets/images/nav-img/Combatants_LN_Vol_2_Eng.jpg');">
+                                        </div>
+                                    </div>
+                                    <div class="col c-12 m-8 l-8">
+                                        <div class="text-over">
+                                            <a href="#not-page-top" class="heading-paga">Sentouin, Hakenshimasu!</a>
+                                        </div>
+                                        <div class="subheading-paga">
+                                            Luôn mang theo súng đến một trận đọ kiếm! Với việc thống trị thế giới gần
+                                            như nằm trong lòng bàn tay, các vị Lãnh tụ Tối...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col c-12 m-12 l-6 md-10">
+                                <div class="row sm-gutter">
+                                    <div class="col c-12 m-4 l-4">
+                                        <div class="content-thumb-newest"
+                                            style="background-image: url('assets/images/nav-img/hatsukoi.jpg');">
+                                        </div>
+                                    </div>
+                                    <div class="col c-12 m-8 l-8">
+                                        <div class="text-over">
+                                            <a href="#not-page-top" class="heading-paga">Sau khi mối tình đầu và cũng là
+                                                người bạn cùng lớp của tôi trở thành gia đình cùng nhau, bạn thời thơ ấu
+                                                của tôi đang dần trở nên hư hỏng</a>
+                                        </div>
+                                        <div class="subheading-paga">
+                                            Trong trường tôi có một cô gái xinh đẹp được mệnh danh là 『Nữ thần hoa hướng
+                                            dương』. Cô ấy là một chủ tịch hội học sin...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="see-more margin-top-12">
+                                <a href="#" class="see-more-link">
+                                    <i class="see-more-link-icon fas fa-hand-point-right"></i>
+                                    Xem thêm
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col c-12 m-12 l-3">
+                        <ul class="content-title">
+                            <li class="title-item">
+                                <div class="title-link">
+                                    Theo dõi
+                                </div>
+                            </li>
+                            <li class="title-item">
+                                <a href="#" class="title-link">
+                                    <span class="title-link-text">Nhiều</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <main class="rank-cirle">
+                            <div class="rank-circle-item">
+                                <span class="rank-number">1</span>
+                                <div class="series-detail">
+                                    <h5 class="series-title"><a href="#1" title="In no jitsury okusha ni naritakute!">In
+                                            no jitsury okusha ni
+                                            naritakute!</a></h5>
+                                    <small class="rank-count">9,115 theo dõi</small>
+                                </div>
+                            </div>
+                            <div class="rank-circle-item">
+                                <span class="rank-number">2</span>
+                                <div class="series-detail">
+                                    <h5 class="series-title"><a href="#1"
+                                            title="Mushoku Tensei - Isekai Ittara Honki Dasu">Mushoku Tensei - Isekai
+                                            Ittara Honki Dasu</a></h5>
+                                    <small class="rank-count">7,332 theo dõi</small>
+                                </div>
+                            </div>
+                            <div class="rank-circle-item">
+                                <span class="rank-number">3</span>
+                                <div class="series-detail">
+                                    <h5 class="series-title"><a href="#1"
+                                            title="Arifureta Shokugyou de Sekai Saikyou">Arifureta Shokugyou de Sekai
+                                            Saikyou</a></h5>
+                                    <small class="rank-count">6,975 theo dõi</small>
+                                </div>
+                            </div>
+                            <div class="rank-circle-item">
+                                <span class="rank-number">4</span>
+                                <div class="series-detail">
+                                    <h5 class="series-title"><a href="#1"
+                                            title="Maou Gakuin no Futekigousha ~Shijou Saikyou no Maou no Shiso, Tensei shite Shison tachi no Gakkou e Kayou~">Maou
+                                            Gakuin no Futekigousha ~Shijou Saikyou no Maou no Shiso, Tensei shite Shison
+                                            tachi no Gakkou e Kayou~</a></h5>
+                                    <small class="rank-count">6,809 theo dõi</small>
+                                </div>
+                            </div>
+                            <div class="rank-circle-item">
+                                <span class="rank-number">5</span>
+                                <div class="series-detail">
+                                    <h5 class="series-title"><a href="#1"
+                                            title="Tôi bị tên senpai NTR mất bạn gái, nên tôi NTR lại bạn gái của hắn">Tôi
+                                            bị tên senpai NTR mất bạn gái, nên tôi NTR lại bạn gái của hắn</a></h5>
+                                    <small class="rank-count">6,615 theo dõi</small>
+                                </div>
+                            </div>
+                            <div class="rank-circle-item">
+                                <span class="rank-number">6</span>
+                                <div class="series-detail">
+                                    <h5 class="series-title"><a href="#1"
+                                            title="Ryoushin no Shakkin wo Katagawari shite Morau Jouken wa Nihon Ichi">Ryoushin
+                                            no Shakkin wo Katagawari shite Morau Jouken wa Nihon Ichi</a></h5>
+                                    <small class="rank-count">6,153 theo dõi</small>
+                                </div>
+                            </div>
+                            <div class="rank-circle-item">
+                                <span class="rank-number">7</span>
+                                <div class="series-detail">
+                                    <h5 class="series-title"><a href="#1" title="Tensei Shitara Slime datta ken">Tensei
+                                            Shitara Slime datta ken</a>
+                                    </h5>
+                                    <small class="rank-count">6,078 theo dõi</small>
+                                </div>
+                            </div>
+                            <div class="rank-circle-item">
+                                <span class="rank-number">8</span>
+                                <div class="series-detail">
+                                    <h5 class="series-title"><a href="#1"
+                                            title="Ankoku kishi monogatari~Yuusha wo taosu tameni Maou ni Shoukansaremashita~">Ankoku
+                                            kishi monogatari~Yuusha wo taosu tameni Maou ni Shoukansaremashita~</a></h5>
+                                    <small class="rank-count">5,511 theo dõi</small>
+                                </div>
+                            </div>
+                            <div class="rank-circle-item">
+                                <span class="rank-number">9</span>
+                                <div class="series-detail">
+                                    <h5 class="series-title"><a href="#1"
+                                            title="Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku">Shinja Zero
+                                            no Megami-sama to Hajimeru Isekai Kouryaku</a></h5>
+                                    <small class="rank-count">5,444 theo dõi</small>
+                                </div>
+                            </div>
+                            <div class="rank-circle-item">
+                                <span class="rank-number">10</span>
+                                <div class="series-detail">
+                                    <h5 class="series-title"><a href="#1"
+                                            title="My Plain-looking Fiancee is Secretly Sweet with me">My Plain-looking
+                                            Fiancee is Secretly Sweet with me</a></h5>
+                                    <small class="rank-count">5,209 theo dõi</small>
+                                </div>
+                            </div>
+                        </main>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map-section" style="text-align: center;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.455226329226!2d106.62735611488583!3d10.85293909226964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752989fc27ffa5%3A0x1453b7b1c033c8ba!2zSW5ub3ZhdGlvbiBCdWlsZGluZywgVMOibiBIxrBuZyBUaHXhuq1uLCBRdeG6rW4gMTIsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1645091013444!5m2!1svi!2s"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="footer">
+            <div class="footer-info">
+                <span class="footer-logo">FPT Polytechnic © 2017. All rights reserved.</span>
+                <span class="footer-info-mail">Liên hệ:
+                    <a class="footer-info-mail-link" href="mailto:tuanthps23577@fpt.edu.vn">
+                        <i class="fas fa-mail-bulk"></i>
+                        Contact us
+                    </a>
+                </span>
+            </div>
+        </div>
+        <div class="btn-top">
+            <a href="#page-top" class="btn-top-link">
+                <i class="fas fa-angle-double-up btn-top-link-icon"></i>
+            </a>
+        </div>
+    </div>
+    <script src="https://uhchat.net/code.php?f=2319c6"></script>
+</body>
+
+</html>

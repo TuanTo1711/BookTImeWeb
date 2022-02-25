@@ -1,0 +1,16 @@
+.margin-top-12 {
+    margin-top: 12px;
+}
+
+.m-align {
+    text-align: center;
+    margin: 0 auto 10px auto;
+}
+
+.md-10 {
+    margin: 12px 0;
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
